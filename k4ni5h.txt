@@ -1,0 +1,15 @@
+<span id="a">k@me</span>:<span id="b">~</span><span id="c">$</span> cd home/<!-- laglaglaglaglaglag -->about_me
+<span id="a">k@me</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->k4ni5h.txt<br/><br/>
+My favorite code quote, "<span id="k">Code is like humor. When you have to explain it, it’s bad.</span>". <!-- sjkfhskjf -->
+
+Hey There! This is my portflio website in the skin of a terminal.<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>You can see that, this is not how a generic software engineer's portfolio look like.</p>
+<p> I am Kanish. Also an IIT grad, a Software Engineer, and a Tech Enthusiast; passionate about IoTs, ChatBots, Genetic Algorithms, Natural Language Processing, Computer Vision, etc. I always excited about making things more generic, dynamic, and robust.</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
+<p> Definition of my ❤️: A natural and periodic state of rest during which consciousness of the world is suspended i.e. SLEEP. 
+    <br><br><br>So please don't expect everything on plate <a href="https://drive.google.com/uc?export=download&id=1xRTdmsV_gUbrpViNEpx_vgpoWrEHTHuz"> Here you can find my resume</a>.
+</p><!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
+<p> You can find my other profiles on Internet, here: <br> <a href="https://www.linkedin.com/in/k4ni5h/">LinkedIn</a> <br> <a href="https://github.com/k4ni5h/">GitHub</a> and <br> <a href="https://www.instagram.com/k4ni5h/">Instagram</a>.</p>
+
+I created an email account too<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="mailto:abc@example.com?subject=Hi%2C%20I%20am%20comming%20from%20your%20portfolio!&body=message.1.2.3...">Email</a>.
+
+<p>Cheers!</p>
