@@ -5,7 +5,7 @@ Surprise! This is my portflio website in the skin of a terminal.<!-- laglaglagla
 
 <p> If you forgot: This is Kanish. </p>
 
-<p> You can see that, this is not how a generic Software Engineer's portfolio look like.</p><br/>
+<p> You can see that, this is not how a generic Software Engineer's portfolio look like.</p>
 
 <p> I am an IIT grad from R land + a Software Engineer + a Tech Enthusiast; I am always passionate about IoTs, ChatBots, Genetic Algorithms, Natural Language Processing, Computer Vision, etc and always excited about making things more generic, dynamic, and robust.</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag --><br/>
 
