@@ -1,5 +1,5 @@
-<span id="a">k@me</span>:<span id="b">~</span><span id="c">$</span> cd home/<!-- laglaglaglaglaglag -->about_me
-<span id="a">k@me</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->k4ni5h.txt<br/><br/>
+<span id="a">k4ni5h@me</span>:<span id="b">/</span><span id="c">$</span> cd /home/<!-- laglaglaglaglaglag -->k4ni5h/
+<span id="a">k4ni5h@me</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->about_me.txt<br/><br/>
 
 Surprise! This is my portflio website in the skin of a terminal.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><br/><br/>
 
@@ -16,6 +16,6 @@ My favorite code quote, "<span id="k">Code is like humor. When you have to expla
 </p><!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
 <p> You can find my other profiles on Internet, here: <br> <a href="https://www.linkedin.com/in/k4ni5h/" target="_blank">LinkedIn</a> <br> <a href="https://github.com/k4ni5h/" target="_blank">GitHub</a> and <br> <a href="https://www.instagram.com/k4ni5h/" target="_blank">Instagram</a> (<span id="k">THIS IS MOST IMPORTANT!!!</span>).</p>
 
-I have an email account too luckily<!-- slightdelayhere-->, feel free to email me<!-- longlonglongcomment --> <a href="mailto:abc@example.com?subject=Hi%2C%20I%20am%20comming%20from%20your%20portfolio!&body=Hi%20Kanish%2C%0A%0AHow%20are%20You%3F" target="_blank">Email</a>.
+Luckily, I have an email account too<!-- slightdelayhere-->, feel free to email me on<!-- longlonglongcomment --> <a href="mailto:abc@example.com?subject=Hi%2C%20I%20am%20comming%20from%20your%20portfolio!&body=Hi%20Kanish%2C%0A%0AHow%20are%20You%3F" target="_blank">k4ni5h23@gmail.com</a>.
 
 <p>Cheers!</p>
