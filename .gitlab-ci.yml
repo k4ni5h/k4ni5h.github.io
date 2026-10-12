@@ -1,13 +1,13 @@
-# Use Node.js image (for sites that need to run a build command)
 image: node:lts
 
 create-pages:
   pages: true
   script:
-    - echo "If there's a build command, write it here; for pure static HTML, keep this line"
+    - mkdir -p public
+    - cp -r * public/ 2>/dev/null || true
+    - cp -r .[!.]* public/ 2>/dev/null || true
   artifacts:
     paths:
-      - public  # GitLab Pages by default publishes content from the public folder
+      - public
   rules:
-    # This rule ensures only pushes to the default branch trigger deployment
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
