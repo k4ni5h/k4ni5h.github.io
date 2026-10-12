@@ -1,54 +1,127 @@
 body {
-    background-color: #000
+    background-color: #0b0d0f;
+    color: #00ff66;
+    margin: 0;
+    padding: 0;
 }
 
 #console {
-    font-family: courier, monospace;
-    color: #fff;
-    width: 750px;
+    font-family: 'Fira Code', 'Cascadia Code', 'Source Code Pro', Courier, monospace;
+    color: #e0e6ed;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
-    font-size: 14px;
-    padding: 20px;
+    font-size: 14.5px;
+    line-height: 1.6;
+    padding: 25px;
+    background: rgba(13, 15, 18, 0.98);
+    border: 1px solid #1a242f;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 a {
-    color: #0bc;
+    color: #00e5ff;
     text-decoration: none;
+    border-bottom: 1px dashed #00e5ff;
+    transition: all 0.2s ease;
 }
 
+a:hover {
+    color: #ff3366;
+    border-bottom-color: #ff3366;
+    text-shadow: 0 0 8px rgba(255, 51, 102, 0.6);
+}
+
+/* User / Prompt styling - Hacker Cyber Green */
 #a {
-    color: #0f0;
+    color: #00ff66;
+    font-weight: bold;
 }
 
-#c {
-    color: #0bc;
-}
-
+/* Path styling - Cyberpunk Blue / Cyan */
 #b {
-    color: #ff0096;
+    color: #00e5ff;
+    font-weight: bold;
 }
 
+/* Command Prompt Symbol $ */
+#c {
+    color: #00ff66;
+}
+
+/* Cyber Security Red / Alert accents */
+#sec, .red-accent {
+    color: #ff3366;
+    font-weight: bold;
+}
+
+/* Highlight / Banner / Quote styling */
 #k {
-    animation: change 1s;
+    color: #00ff66;
+    font-weight: bold;
 }
 
+/* Subdued / Secondary text */
 #op {
-    color: #888888
+    color: #8892b0;
+}
+
+/* Image container & thumbnails */
+.media-box {
+    margin: 15px 0;
+    padding: 12px;
+    background: rgba(22, 27, 34, 0.8);
+    border: 1px solid #23303e;
+    border-left: 4px solid #ff3366;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.media-box img {
+    border: 1px solid #00ff66;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.media-box img:hover {
+    transform: scale(1.03);
+    border-color: #ff3366;
+    box-shadow: 0 0 15px rgba(255, 51, 102, 0.5);
+}
+
+.id-card-img {
+    max-width: 280px;
+    height: auto;
+}
+
+.avatar-img {
+    width: 110px;
+    height: 140px;
+    object-fit: cover;
+}
+
+/* Terminal ASCII Header */
+.terminal-header {
+    color: #00ff66;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 255, 102, 0.4);
 }
 
 @keyframes change {
     0% {
-        color: #0f0;
+        color: #00ff66;
     }
-
     50% {
-        color: #0f0;
+        color: #ff3366;
     }
-
-    99% {
-        color: black;
+    100% {
+        color: #00e5ff;
     }
 }

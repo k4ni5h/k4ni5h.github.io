@@ -1,21 +1,54 @@
-<span id="a">k4ni5h@me</span>:<span id="b">/</span><span id="c">$</span> cd /home/<!-- laglaglaglaglaglag -->k4ni5h/
-<span id="a">k4ni5h@me</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->about_me.txt<br/>
+<span id="a">k4ni5h@me</span>:<span id="b">/</span><span id="c">$</span> cd /home/k4ni5h/
+<span id="a">k4ni5h@me</span>:<span id="b">~</span><span id="c">$</span> cat about_me.txt<br/>
 
-Surprise! This is my portfolio website in the skin of a terminal.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><br/>
+Surprise! This is my portfolio website in the skin of a terminal.<!-- delay1 --><br/>
 
-<p> If you forgot: This is Kanish. </p>
+<p> If you forgot: This is <span id="a">Kanish Garg</span>. </p>
 
-<p> You can see that, this is not how a generic Software Engineer's portfolio look like.</p>
+<p> <span id="sec">[+] CURRENT ROLE:</span> Managing Director, Engineering Manager & GenAI Consultant @ <span id="b">Saral Groups / SaralTech</span>.</p>
 
-<p> I am an IIT grad from R land + a Software Engineer + a Tech Enthusiast; I am always passionate about IoTs, ChatBots, Genetic Algorithms, Natural Language Processing, Computer Vision, BlockChain, basically the intersection of <b>Mathematics</b> & <b>Coding</b>. Also, I am always excited about making things more generic, dynamic, and robust.</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag --><br/>
+<p> <span id="sec">[!] PHILOSOPHY:</span> "सरल systems" (Simple Systems). Stripping away engineering bloat and bridging the gap between deep technical architecture, AI automation, and market growth.</p>
 
-My favorite code quote, "<span id="k">Code is like humor. When you have to explain it, it’s bad.</span>". <!-- sjkfhskjf --><br/>
+<p> <span id="a">[+] ABOUT ME:</span> IIT Roorkee Alum (B.Tech Mechanical '20, Enr. 16117040) | Software Engineer | Fractional CTO / CSO / CMO / CRO | Venture Builder & Security Enthusiast.<br/>
+Helped 350+ clients across 25+ industries. Passionate about AI Agents, LLM Fine-Tuning (Llama/GPT), RAG, Cyber Security, Algo-Trading, Q-Com, and System Automation.</p><!-- delay2 -->
 
-<p> Definition of my ❤️: A natural and periodic state of rest during which consciousness of the world is suspended i.e. SLEEP. 
-    <br><br><br>And, I am lazy enough to automate anything. To know more about me: <a href="https://drive.google.com/uc?id=1xRTdmsV_gUbrpViNEpx_vgpoWrEHTHuz" target="_blank"><span id="k">Download my resume</span></a>.
-</p><!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
-<p> You can find my other profiles on Internet, here: <br> <a href="https://www.linkedin.com/in/k4ni5h/" target="_blank">LinkedIn</a> <br> <a href="https://github.com/k4ni5h/" target="_blank">GitHub</a> and <br> <a href="https://www.instagram.com/k4ni5h/" target="_blank">Instagram</a> (<span id="k">THE MOST IMPORTANT ONE!!!</span>).</p>
+<div class="media-box">
+    <div>
+        <img src="kanish_photo.jpg" class="avatar-img" alt="Kanish Photo (IIT Roorkee ID)"/>
+    </div>
+    <div>
+        <img src="college_id_front.jpg" class="id-card-img" alt="IIT Roorkee ID Front"/>
+        <img src="college_id_back.jpg" class="id-card-img" alt="IIT Roorkee ID Back"/>
+    </div>
+</div>
 
-Luckily, I have an email account too<!-- slightdelayhere-->, feel free to email me on<!-- longlonglongcomment --> <a href="mailto:k4ni5h23@gmail.com?subject=Hi%2C%20I%20am%20coming%20from%20your%20portfolio!&body=Hi%20Kanish%2C%0A%0AHow%20are%20You%3F" target="_blank">k4ni5h23@gmail.com</a>.
+My favorite code quote: "<span id="sec">Code is like humor. When you have to explain it, it’s bad.</span>" <!-- quote --><br/>
 
-<p>Cheers!</p>
+<p> <span id="sec">[!] SECURITY & AUTOMATION MINDSET:</span> "If it takes more than two clicks, automate or script it." <br/>
+Definition of my ❤️: A natural and periodic state of rest during which consciousness of the world is suspended i.e. SLEEP. 
+    <br/><br/>To know more about my credentials & experience: <a href="https://drive.google.com/uc?id=1G7hVHrHcZsOWJ5tqR7LaGEA2QEtj3t1s" target="_blank"><span id="a">[Download Resume]</span></a> | <a href="https://cal.com/kanish/consultation" target="_blank"><span id="sec">[Book Consultation]</span></a>.
+</p><!-- delay3 -->
+
+<p> <span id="b">[+] FAOURITE TECH STACK & TOOLKIT:</span><br/>
+• <span id="a">Languages:</span> Python, Go, C/C++, TypeScript, JavaScript, SQL, Java, Bash, LaTeX<br/>
+• <span id="sec">Agentic AI & ML:</span> LLM Fine-Tuning (Llama 4.0), RAG, LangChain, Agentic AI, Hugging Face, Keras, PyTorch, Airflow, MLFlow<br/>
+• <span id="b">Backend & Web:</span> Django/DRF, FastAPI, Flask, Node.js/Express, Next.js, React, Redux, Vue, Flutter<br/>
+• <span id="a">Cloud & Infrastructure:</span> AWS, GCP, Azure, Kubernetes, Docker, Nginx, Gunicorn/Daphne/Uvicorn, Redis, ELK, Cloudflare, Sentry<br/>
+• <span id="sec">Automation & Security:</span> n8n, Python Bots, Cyber Security, Web Security, System Hardening, AdTech (OpenRTB, DV360, Meta/Google Ads)
+</p><!-- delay4 -->
+
+<p> <span id="b">[+] INDUSTRY CROSS-SECTION EXPERTISE:</span><br/>
+Quick-Commerce (Q-Com), E-Commerce, FinTech (Algo Trading), CyberSec, EdTech, AdTech, PropTech/Real Estate, EventTech, GreenTech (Carbon Calculators), HealthTech.
+</p>
+
+<p> You can find my other profiles & channels across the web here: <br/> 
+• <a href="https://github.com/k4ni5h" target="_blank"><span id="a">GitHub</span></a> (github.com/k4ni5h) <br/> 
+• <a href="https://www.linkedin.com/in/k4ni5h/" target="_blank"><span id="b">LinkedIn</span></a> (linkedin.com/in/k4ni5h) <br/> 
+• <a href="https://www.saralgroups.com/" target="_blank"><span id="sec">Saral Groups</span></a> (saralgroups.com) <br/> 
+• <a href="https://www.instagram.com/k4ni5h/" target="_blank"><span id="sec">Instagram</span></a> (<span id="sec">THE MOST IMPORTANT ONE!</span>)
+</p>
+
+Luckily, I have an email account too<!-- delay5 -->, feel free to drop me a line at <a href="mailto:k4ni5h23@gmail.com?subject=Hi%2C%20I%20am%20coming%20from%20your%20portfolio!&body=Hi%20Kanish%2C%0A%0AHow%20are%20You%3F" target="_blank"><span id="a">k4ni5h23@gmail.com</span></a> or <a href="mailto:kanish@saralgroups.com" target="_blank"><span id="b">kanish@saralgroups.com</span></a>.
+
+<p><span id="a">root@k4ni5h:~#</span> <span id="sec">status --all-systems-operational</span><br/>
+Cheers!</p>
