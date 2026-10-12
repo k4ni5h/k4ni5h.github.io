@@ -1,10 +1,13 @@
-# The Docker image that will be used to build your app
+# Use Node.js image (for sites that need to run a build command)
 image: node:lts
+
 create-pages:
-  pages:
-    # The folder that contains the files to be exposed at the Page URL
-    publish: public
+  pages: true
+  script:
+    - echo "If there's a build command, write it here; for pure static HTML, keep this line"
+  artifacts:
+    paths:
+      - public  # GitLab Pages by default publishes content from the public folder
   rules:
-    # This ensures that only pushes to the default branch will trigger
-    # a pages deploy
+    # This rule ensures only pushes to the default branch trigger deployment
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
