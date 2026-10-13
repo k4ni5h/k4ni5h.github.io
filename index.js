@@ -1,86 +1,110 @@
-var Typer={
+var Typer = {
 	text: null,
-	accessCountimer:null,
-	index:0, 
-	speed:3,
-	file:"", 
-	accessCount:0,
-	deniedCount:0, 
-	init: function(){
-		accessCountimer=setInterval(function(){Typer.updLstChr();},500); 
-		$.get(Typer.file,function(data){
-			Typer.text=data;
+	accessCountimer: null,
+	index: 0, 
+	speed: 3,
+	file: "", 
+	accessCount: 0,
+	deniedCount: 0, 
+	userScrolledUp: false,
+
+	init: function() {
+		accessCountimer = setInterval(function() { Typer.updLstChr(); }, 500); 
+
+		// Detect if user scrolls manually
+		$(window).bind('scroll wheel touchmove keydown', function(e) {
+			// If user presses scroll keys or scrolls mouse
+			if (e.type === 'wheel' || e.type === 'touchmove' || (e.type === 'keydown' && [38, 33, 36].indexOf(e.keyCode) !== -1)) {
+				var distanceToBottom = $(document).height() - ($(window).scrollTop() + $(window).height());
+				if (distanceToBottom > 80) {
+					Typer.userScrolledUp = true;
+				}
+			}
+			
+			// Re-enable autoscroll if user scrolls back near bottom
+			var distBottom = $(document).height() - ($(window).scrollTop() + $(window).height());
+			if (distBottom < 50) {
+				Typer.userScrolledUp = false;
+			}
+		});
+
+		$.get(Typer.file, function(data) {
+			Typer.text = data;
 			if (Typer.text.endsWith("\n")) {
-				Typer.text = Typer.text.slice(0, Typer.text.length-1);
+				Typer.text = Typer.text.slice(0, Typer.text.length - 1);
 			}
 		});
 	},
- 
-	content:function(){
+
+	content: function() {
 		return $("#console").html();
 	},
- 
-	write:function(str){
+
+	write: function(str) {
 		$("#console").append(str);
 		return false;
 	},
- 
-	addText:function(key){
-		if(key.keyCode==18){
+
+	addText: function(key) {
+		if (key.keyCode == 18) {
 			Typer.accessCount++; 
-			if(Typer.accessCount>=3){
+			if (Typer.accessCount >= 3) {
 				Typer.makeAccess(); 
 			}
 		}
-		else if(key.keyCode==20){
+		else if (key.keyCode == 20) {
 			Typer.deniedCount++; 
-			if(Typer.deniedCount>=3){
+			if (Typer.deniedCount >= 3) {
 				Typer.makeDenied(); 
 			}
 		}
-		else if(key.keyCode==27){ 
+		else if (key.keyCode == 27) { 
 			Typer.hidepop(); 
 		}
-		else if(Typer.text){ 
-			var cont=Typer.content(); 
-			if(cont.substring(cont.length-1,cont.length)=="|") 
-				$("#console").html($("#console").html().substring(0,cont.length-1)); 
-			if(key.keyCode!=8){ 
-				Typer.index+=Typer.speed;	
+		else if (Typer.text) { 
+			var cont = Typer.content(); 
+			if (cont.substring(cont.length - 1, cont.length) == "|") 
+				$("#console").html($("#console").html().substring(0, cont.length - 1)); 
+			
+			if (key.keyCode != 8) { 
+				Typer.index += Typer.speed;	
+			} else {
+				if (Typer.index > 0) 
+					Typer.index -= Typer.speed;
 			}
-			else {
-				if(Typer.index>0) 
-					Typer.index-=Typer.speed;
+			var text = Typer.text.substring(0, Typer.index);
+			var rtn = new RegExp("\n", "g"); 
+
+			$("#console").html(text.replace(rtn, "<br/>"));
+
+			// Only scroll to bottom if the user hasn't explicitly scrolled up to read top content
+			if (!Typer.userScrolledUp) {
+				window.scrollTo(0, document.body.scrollHeight);
 			}
-			var text=Typer.text.substring(0,Typer.index);
-			var rtn= new RegExp("\n", "g"); 
-	
-			$("#console").html(text.replace(rtn,"<br/>"));
-			window.scrollBy(0,50); 
 		}
 		
 		if (key.preventDefault && key.keyCode != 122) { 
 			key.preventDefault();
 		} 
 		
-		if(key.keyCode != 122){
+		if (key.keyCode != 122) {
 			key.returnValue = false;
 		}
 	},
- 
-	updLstChr:function(){ 
-		var cont=this.content(); 
-		if(cont.substring(cont.length-1,cont.length)=="|") 
-			$("#console").html($("#console").html().substring(0,cont.length-1)); 
+
+	updLstChr: function() { 
+		var cont = this.content(); 
+		if (cont.substring(cont.length - 1, cont.length) == "|") 
+			$("#console").html($("#console").html().substring(0, cont.length - 1)); 
 		else
 			this.write("|"); 
 	}
 };
 
-Typer.speed=3;
-Typer.file="about_me.txt"; 
+Typer.speed = 3;
+Typer.file = "about_me.txt"; 
 Typer.init();
- 
+
 var timer = setInterval("t();", 20);
 function t() {
 	Typer.addText({"keyCode": 123748});
