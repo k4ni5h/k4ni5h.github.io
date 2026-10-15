@@ -112,3 +112,13 @@ function t() {
 		clearInterval(timer);
 	}
 }
+
+$(document).ready(function() {
+	$("#btn-hacker-kanish").click(function() {
+		$("#profile-modal-overlay").fadeOut(200);
+	});
+
+	$("#btn-developer-kanish").click(function() {
+		window.location.href = "/k4ni5h";
+	});
+});
